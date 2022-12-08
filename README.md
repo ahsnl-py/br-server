@@ -1,6 +1,6 @@
-## Use Docker to run the application
+## Server that makes a call to EXPONA API
 
-### Run application
+### Run application with docker
 #### Create an Image from command line:
 `smart-api % docker build -t br-serve-img`
 
