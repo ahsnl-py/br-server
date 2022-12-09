@@ -7,7 +7,7 @@
 `docker run -d --name br-container -p 80:80 br-serve-img`
 
 ## Code Behaviour
-| TimeoutTest (s) | Request (s) | Concurrency (s) | TimeTest (s) | RPS  (s) |
+| TimeoutTest (s) | Request     | Concurrency (s) | TimeTest (s) | RPS  (s) |
 | --------------- | ----------- | --------------- | ------------ | -------- |
 | Default (30)    | 100         | 10              | 43.345       | 2.31     |
 | Default (30)    | 400         | 40              | 174.340      | 2.29     |
