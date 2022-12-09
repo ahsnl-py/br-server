@@ -6,6 +6,9 @@
 ### Create a container and run it
 `docker run -d --name br-container -p 80:80 br-serve-img`
 
+### Run Test
+`pytest`
+
 ## Code Behaviour
 | TimeoutTest (s) | Request     | Concurrency (s) | TimeTest (s) | RPS  (s) |
 | --------------- | ----------- | --------------- | ------------ | -------- |
