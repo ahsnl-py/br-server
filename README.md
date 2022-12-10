@@ -10,7 +10,7 @@
 `pytest`
 
 ## Code Behaviour
-| Worker | TimeoutTest (s) | Request (s) | Concurrency (s) | TimeTest (s) | TimePerRequest-1 (ms) | TimePerRequest-2 (ms) | RPS  (s) |
+| Worker | TimeoutTest (s) | Request     | Concurrency     | TimeTest (s) | TimePerRequest-1 (ms) | TimePerRequest-2 (ms) | RPS  (s) |
 | ------ | --------------- | ----------- | --------------- | ------------ | ---------------- | ----------------- | -------- |
 | 1      | Default (30)    | 100         | 10              | 43.345       | 4334.490         | 433.449           | 2.31000  |
 | 1      | Default (30)    | 400         | 40              | 174.340      | 17433.990        | 435.850           | 2.29000  |
